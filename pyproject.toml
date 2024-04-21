@@ -1,0 +1,22 @@
+# [project.urls]
+# Repository = "https://github.com/ansible/django-ansible-base"
+
+[project]
+version = "0.0.0"
+name = "grpc-querysets"
+authors = [
+    {name = "David Newswanger"},
+]
+description = "Run querysets remotely"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["django", "grpc"]
+classifiers = []
+# dynamic = ["version", "dependencies", "optional-dependencies"]
+
+[tool.setuptools.packages.find]
+include = ["grpc_querysets*"]
+
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = 'setuptools.build_meta'

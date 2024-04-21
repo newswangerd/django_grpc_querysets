@@ -1,0 +1,36 @@
+# Python & setuptools
+__pycache__
+/build
+/deb-build
+/reprepro
+/rpm-build
+/tar-build
+/setup-bundle-build
+/dist
+/*.egg-info
+*.py[c,o]
+/.eggs
+.coverage*
+coverage.xml
+coverage.json
+htmlcov
+*.tox
+venv/
+.venv/
+
+# Mac OS X
+*.DS_Store
+
+# VSCode
+.vscode/
+
+# Editors
+*.sw[poj]
+*~
+
+# SQLite
+*.sqlite3
+*.sqlite3_gw*
+*.sqlite3-journal
+
+grpc_examples/

@@ -1,0 +1,4 @@
+django
+djangorestframework
+grpcio
+grpcio-tools
